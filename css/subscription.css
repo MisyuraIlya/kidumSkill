@@ -1,0 +1,30 @@
+.subscription {
+  width: 100%;
+  background-color: #F9F9F9;
+  height: 300px;
+  margin-top: 100px;
+  float:right;
+  text-align: right;
+  direction: rtl;
+}
+
+.all_subs {
+  float: right;
+}
+.sub_menu {
+  list-style-type: none;
+ margin: 0;
+ padding: 0;
+
+}
+
+.sub_menu li {
+    float: left;
+    color: black;
+    margin-left: 100px;
+}
+.sub_menu_num li {
+  float: left;
+  color: black;
+  margin-left: 87px;
+}

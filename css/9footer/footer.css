@@ -1,0 +1,61 @@
+/* footer */
+.footer{
+  margin-top: 450px;
+  background: rgb(218,213,250);
+  background: linear-gradient(90deg, rgba(218,213,250,1) 33%, rgba(206,224,241,1) 65%);
+}
+
+
+
+.footer1 {
+  margin-top: 20px;
+  float: right;
+  text-align: right;
+  position: absolute;
+  width:500px;
+  right: 40px;
+}
+
+.footer1 p {
+  margin-top: 20px;
+}
+
+
+.footer2{
+    margin-top: 20px;
+  float: right;
+  text-align: right;
+}
+
+.footer2 h3 {
+  position: relative;
+  left: 80px;
+}
+.footer2 li {
+  list-style: none;
+  width: 200px;
+  margin-top: 5px;
+
+}
+
+
+.footer3 {
+    margin-top: 20px;
+  width: 300px;
+  position: relative;
+  right: 100px;
+  float: right;
+  text-align: right;
+
+}
+
+
+.footer3 button{
+  margin-top: 20px;
+  position: relative;
+  right: 5px;
+}
+
+.footer p {
+  margin-top: 20px;
+}

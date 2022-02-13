@@ -1,0 +1,371 @@
+.main_header {
+	height: 70px;
+	min-height: 60px;
+	align-items: middle;
+	position: relative;
+	border-bottom: 5px solid #2f2f31;
+	box-shadow: 0 1px 1px #000;
+	background-color: #1c2022;
+	color: hsla(0,0%,100%,.7);
+}
+
+.left_logo img {
+  position: absolute;
+  right: 15px;
+  top: -65px;
+}
+
+.f_line {
+	font-size: 1rem;
+	font-weight: 800;
+	padding-left: 13px;
+	color: #e0e0e0;
+	margin: 0 0 0 calc(1rem + 1px);
+	border-left: 1px solid hsla(0,0%,100%,.3);
+	height: 40px;
+	margin-top: 14px;
+  position: absolute;
+  right:220px;
+}
+
+.links {
+	font-size: 1.5em;
+	line-height: 1.2;
+	outline: 0;
+	padding: 9px 4px;
+	color: #d8d4d4;
+	cursor: pointer;
+	text-decoration: none!important;
+	font-weight: 700!important;
+	text-transform: uppercase;
+}
+
+
+.name_course{
+  margin-left: 50px;
+  margin-top: 15px;
+}
+
+
+/*  */
+.btn_container {
+	line-height: 1.2;
+	padding: 10px 0;
+	margin: 10px 0 0 30px;
+}
+
+.button,.file-upload-button,.gsc-cursor-page {
+	-webkit-appearance: none;
+	font-size: .8rem;
+	text-shadow: none;
+	line-height: 1.2;
+	display: inline-block;
+	outline: 0;
+	padding: 10px 0;
+	margin: 0 10px 0 0;
+	position: relative;
+	border-radius: 3px;
+	border: 3px solid transparent;
+	color: #fff;
+	cursor: pointer;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	text-decoration: none!important;
+	text-align: center;
+	font-weight: 400!important;
+}
+
+.btn_check_answer {
+	border: 0 solid;
+	border-radius: 2px;
+	background-image: linear-gradient(90deg,#34b574,#38cbdd);
+	width: 117px;
+}
+
+.btn_check_answer:hover {
+	border: 0 solid;
+	background-image: linear-gradient(90deg,#2fc77b,#38cbdd);
+}
+
+.btn_check_answer_disabled,.btn_check_answer_disabled:focus,.btn_check_answer_disabled:hover {
+	background: #828282;
+	cursor: not-allowed;
+	border: 0 solid #909090;
+}
+
+.button>span>svg,.button>svg,.file-upload-button>span>svg,.file-upload-button>svg,.gsc-cursor-page>span>svg,.gsc-cursor-page>svg {
+	width: 23px;
+	height: 16px;
+	display: inline-block;
+	pointer-events: none;
+	vertical-align: bottom;
+	fill: #fff;
+	padding-right: 1px;
+}
+
+.button-editor-outline:focus,.button-editor-outline:hover,.button-editor-solid:focus,.button-editor-solid:hover {
+	background: #4e505a;
+}
+
+
+/* header end */
+
+/* page */
+
+
+
+/* horizontal panel*/
+
+.panel-container {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid silver;
+  overflow: hidden;
+
+  /* avoid browser level touch actions */
+  xtouch-action: none;
+}
+
+.panel-left {
+  flex: 0 0 auto;
+  /* only manually resize */
+  padding: 10px;
+  width: 70%;
+  min-height: 200px;
+  min-width: 350px;
+  white-space: nowrap;
+  background: #838383;
+  color: white;
+
+}
+
+.splitter {
+  flex: 0 0 auto;
+  width: 18px;
+  background: url(https://raw.githubusercontent.com/RickStrahl/jquery-resizable/master/assets/vsizegrip.png) center center no-repeat #535353;
+  min-height: 200px;
+  cursor: col-resize;
+}
+
+.panel-right {
+  flex: 1 1 auto;
+  /* resizable */
+  padding: 10px;
+  width: 100%;
+  min-height: 200px;
+  min-width: 200px;
+	background-color: #1d1f21;
+	color: #c8c8c8;
+  text-align:right;
+	z-index: 10;
+	position: relative;
+	right: 10px;
+}
+
+/* right panel */
+.lessons {
+	font-family: Roboto,sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #1d1f21;
+	color: #c8c8c8;
+	overflow-y: auto;
+	overflow-x: hidden;
+	height: calc(100vh - 100px);
+}
+.lessons ul {
+	margin: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+	list-style: none;
+
+}
+
+.lessons li {
+	padding: 10px;
+	font-size: 14px;
+	line-height: 20px;
+	background-color: #181818;
+	margin-bottom: 1px;
+
+}
+
+
+.lessons li>.box>a {
+	color: #a9a8a8;
+	text-decoration: none;
+	padding-left: 5px;
+	min-width: 80%;
+	margin-right: 60px;
+	position: relative;
+	top: -25px;
+}
+
+.lessons .active {
+	background-color: #0e0e0e;
+	opacity: 1;
+	-webkit-animation-name: fadeInOpacity;
+	animation-name: fadeInOpacity;
+	-webkit-animation-iteration-count: 1;
+	animation-iteration-count: 1;
+	-webkit-animation-timing-function: ease-in;
+	animation-timing-function: ease-in;
+	-webkit-animation-duration: 2s;
+	animation-duration: 2s;
+}
+
+.lessons .active p {
+	font-weight: 800;
+}
+
+.lessons li.active>.box>a {
+	color: #41b883;
+	font-weight: 800;
+	font-size: 14px;
+}
+
+.lessons li.active>.box>a:hover {
+	color: #41b883;
+}
+
+.lessons li>.box>a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+.lessons .task_icon {
+	font-size: 25px;
+	width: 15px;
+	position: relative;
+	top: 15px;
+}
+
+/* scrolltrack */
+.lessons::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #22241c;
+}
+
+.lessons::-webkit-scrollbar {
+	width: 8px;
+	background-color: #f5f5f5;
+}
+
+.lessons::-webkit-scrollbar-thumb {
+	background-color: #555;
+	border: 0 solid #555;
+}
+/* circle */
+.circle {
+	position: relative;
+	top:20px;
+	right: 35px;
+}
+
+/* time */
+.task_time {
+	padding-top: 4px;
+	padding-left: 7px;
+
+
+}
+.box_end {
+	float: left;
+	margin-top: -25px;
+}
+
+
+/* left */
+/* video */
+
+
+
+
+
+/* footer */
+.site-footer {
+	height: 40px;
+	line-height: 1;
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	padding: 0 5px;
+	white-space: nowrap;
+	color: #9396a4;
+	background: #191c1d;
+	border-top: 1px solid #3f414b;
+	z-index: 10;
+}
+
+.footer-left,.site-footer {
+	display: -ms-flexbox;
+	display: -webkit-box;
+	display: flex;
+	-ms-flex-align: center;
+	-webkit-box-align: center;
+	align-items: center;
+}
+
+.footer-left {
+	height: 100%;
+	padding: 9px 0;
+	z-index: 1;
+	-ms-flex-positive: 1;
+	-webkit-box-flex: 1;
+	flex-grow: 1;
+	z-index: 10;
+}
+
+.ask_btn a {
+	color: #969696;
+	text-decoration: none;
+}
+
+.ask_btn a:hover {
+	color: #dcdcdc;
+	text-decoration: none;
+}
+
+.version_build {
+	color: #686868;
+	font-size: 10px;
+}
+
+.button-dark {
+	background: #111;
+}
+.mini-button {
+	font-size: .8rem;
+	padding: 2px 7px;
+	margin: 0 1px 0 0;
+	border-width: 1px;
+}
+
+.video_block video{
+ width: 100%;
+ min-height: 500px;
+ max-height: 500px;
+}
+.page-container{
+	background-color: #111;
+}
+
+
+
+/* exme */
+.exme {
+
+	text-align: right;
+}
+
+
+
+
+
+/* new */
+.container_quest {
+	width: 635px;
+height: 145px;
+background-color: #384457;
+}

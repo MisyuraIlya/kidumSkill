@@ -1,0 +1,577 @@
+.header_silabus {
+  width: 100%;
+  height: 452px;
+
+  margin-top: 70px;
+}
+
+/*  */
+
+
+
+
+section {
+
+  position: relative;
+  /* top: 30%;
+  left: 50%; */
+  /* transform: translate(-50%, -50%); */
+  height: 100%;
+  width: 100%;
+  background-color: #263040;
+  /* box-shadow: 0 25px 30px rgba(0,0,0,.5); */
+  display: flex;
+}
+
+.header_silabus_content {
+  width: calc(50% - 50px);
+
+  background-color: #263040;
+  box-sizing: border-box;
+  color: #263040;
+  padding: 30px 50px;
+  font-family: sans-serif;
+
+}
+
+.header_silabus_content h2 {
+
+  font-family: Assistant;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 63px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.02em;
+  float: right;
+  color: #00E6C3;
+}
+
+.header_silabus_content p {
+margin-top: 50px;
+float: right;
+text-align: right;
+}
+
+
+
+.imageBox {
+  width: calc(50% + 50px); /* 50px are 1/2 of border left px */
+  height: 100%;
+  background-color: #263040;
+  box-sizing: border-box;
+
+    background: url("../images/html_silabus.png");
+   /* background-position: -100px -150px; */
+   clip-path: polygon(0 0, 100% 0%, 90% 100%, 0% 100%);
+}
+
+
+/*  */
+/* content header */
+
+
+
+
+/* silabus_content */
+
+.silabus_content {
+float: right;
+text-align: right;
+margin-top: 50px;
+}
+.silabus_content h3{
+  font-family: Assistant;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 63px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.02em;
+
+  color: #00E6C3;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.silabus_content h6 {
+  font-family: Assistant;
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 31px;
+display: flex;
+align-items: center;
+text-align: right;
+letter-spacing: 0.02em;
+
+color: #263040;
+}
+
+.silabus_content ul li {
+  font-family: Assistant;
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 31px;
+align-items: center;
+text-align: right;
+letter-spacing: 0.02em;
+list-style: inherit;
+color: #263040;
+}
+/* end silabus_content */
+.content{
+  color: white;
+  font-size: 16px;
+  padding: 15px;
+}
+
+.header_content {
+  background: #3C4D67;
+  width: 100%;
+  height: 100px;
+  box-shadow: 0 25px 30px rgba(0,0,0,.5);
+}
+
+.header_content {
+  width: 100%;
+display: table;
+}
+.header_content ul {
+	display: table-row;
+}
+.header_content li {
+	display: table-cell;
+	background: #3C4D67;
+  font-family: Assistant;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 24px;
+  padding: 10px 50px 10px 0px;
+  align-items: center;
+  text-align: right;
+  letter-spacing: 0.02em;
+
+  color: #FFFFFF;
+
+}
+.logo_content svg {
+  margin-top: 30px;
+  float: right;
+}
+
+/* end content header */
+.silabus_lessons {
+
+  text-align: right;
+}
+
+/* 3 */
+/* .silabus_lessons_bg {
+
+background: #263040;
+margin-top: 500px;
+}
+
+.silabus_lesson_circle {
+  border: 1px solid #00E6C3;
+box-sizing: border-box;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+width: 35px;
+height: 35px;
+border-radius: 50%;
+}
+
+.silabus_lesson_circle p{
+  margin-right:30%;
+
+}
+
+.lesson_bg {
+  background: #F8F8F8;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 5px;
+width: 1241px;
+height: 104px;
+margin-right: 50px;
+}
+
+
+
+
+.circle_number_lesson_silab {
+  border: 1px solid #263040;
+box-sizing: border-box;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+border-radius: 50%;
+width: 50px;
+height: 50px;
+
+}
+
+.lesson_bg span{
+  color: black;
+
+}
+
+.silabus_comments {
+  width: 1000px;
+}
+.user_comment {
+  display: inline;
+}
+.user_comment img {
+  width: 50px;
+  height: 50px;
+  direction: rtl;
+  float: right;
+  text-align: right;
+}
+
+.block_name_date {
+  width: 130px;
+  height: 50px;
+  margin-right: 70px;
+}
+
+.block_name_date p {
+
+  font-family: Assistant;
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: right;
+letter-spacing: 0.02em;
+
+color: #263040;
+
+}
+
+.block_name_date_p2 {
+  margin-top: -20px;
+  font-size: 2px;
+} */
+
+.silabus_lessons {
+  background: #263040;
+border-radius: 5px;
+padding-bottom: 60px;
+width: 100%;
+
+}
+
+.silabus_lessons_bg {
+margin-right: 100px;
+  background: #F8F8F8;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 5px;
+padding-bottom: 20px;
+margin-left:90px;
+}
+
+
+.silabus_lesson_circle {
+  border: 1px solid #00E6C3;
+box-sizing: border-box;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+width: 35px;
+height: 35px;
+border-radius: 50%;
+margin: 50px 100px;
+}
+
+.silabus_lesson_circle p{
+  margin-right:30%;
+
+}
+
+.desc_lesson p {
+margin-top: -85px;
+margin-right: 150px;
+
+}
+
+.circle_lesson_bg {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #263040;
+box-sizing: border-box;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+border-radius: 50%;
+margin-right: 90px;
+margin-top: -60px;
+}
+
+.circle_lesson_bg p{
+  font-family: Assistant;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 38px;
+  line-height: 16px;
+  /* identical to box height */
+  margin: 13px 13px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.02em;
+
+  color: #00E6C3;
+}
+
+
+.silabus_lesson {
+
+}
+
+
+
+.content_silabus_lesson_bg {
+  margin-right: 160px;
+  margin-top: -35px;
+}
+.content_silabus_lesson_bg p{
+  font-family: Assistant;
+font-style: normal;
+font-weight: 800;
+font-size: 34px;
+line-height: 18px;
+display: flex;
+align-items: center;
+letter-spacing: 0.02em;
+width: 100px;
+color: #000000;
+
+
+}
+
+
+.silabus_comments {
+  float: right;
+  text-align: right;
+}
+
+.comment_num h3 {
+  font-family: Assistant;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 63px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.02em;
+  margin-right: 50px;
+  margin-top: 50px;
+  color: #00E6C3;
+  float: right;
+  text-align: right;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+.user_comment {
+  display: inline;
+}
+.user_comment img {
+  width: 100px;
+  height: 100px;
+  direction: rtl;
+  float: right;
+  text-align: right;
+}
+
+.block_name_date {
+  width: 280px;
+  height: 50px;
+  margin-right: 70px;
+}
+
+.block_name_date p {
+  margin-right: 40px;
+margin-top: 22px;
+  font-family: Assistant;
+font-style: normal;
+font-weight: 800;
+font-size: 28px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: right;
+letter-spacing: 0.02em;
+
+color: #263040;
+
+}
+
+.block_name_date_p2 {
+  margin-top: -110px;
+  font-size: 2px;
+}
+.silabus_comments {
+  margin-right: 50px;
+}
+
+.star_comment_block {
+  margin-right: 290px;
+margin-top: -60px;
+}
+
+.star_comment_block p {
+  color: black;
+}
+
+
+
+
+.star_comment_block ul {
+	display: table-row;
+}
+.star_comment_block li {
+	display: table-cell;
+
+  font-family: Assistant;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 24px;
+  align-items: center;
+  text-align: right;
+  letter-spacing: 0.02em;
+
+  color: #FFFFFF;
+
+}
+
+.star_comment_block li img {
+  width: 50px;
+  height: 50px;
+}
+
+
+/* numiration */
+
+.pagination {
+  display: inline-block;
+  float: right;
+  text-align: right;
+  margin-right: 250px;
+  background-color: #263040;
+  margin-top: 50px;
+}
+
+.pagination a {
+  color: white;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  border: 2px solid #00E6C3;
+  font-family: Assistant;
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 31px;
+display: flex;
+align-items: center;
+letter-spacing: 0.02em;
+
+color: #FFFFFF;
+}
+
+.pagination a.active {
+  background-color: #263040;
+  color: #00E6C3;
+  border: 2px solid #263040;
+    border: 2px solid #00E6C3;
+}
+.pagination a:hover {
+  color: #00E6C3;
+}
+
+.pagination a:hover:not(.active) {background-color: #263040; }
+
+.pagination a:first-child {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+
+}
+
+.pagination a:last-child {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+
+}
+/* end numitation */
+
+
+/* collapse */
+
+.collapsible {
+  background: linear-gradient(270deg, #00E6C3 0%, #31F78B 143%);
+border-radius: 3px;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 70%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  float: right;
+  text-align: right;
+  font-family: Assistant;
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 31px;
+display: flex;
+align-items: center;
+text-align: right;
+letter-spacing: 0.02em;
+  margin-right: 50px;
+color: #263040;
+}
+
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background: #263040;
+  border-bottom-left-radius: 17px;
+  border-bottom-right-radius:  17px;
+  float: right;
+  text-align: right;
+  width: 70%;
+  margin-bottom: 50px;
+  margin-right: 50px;
+}
+
+.answers_silabus {
+  float: right;
+  text-align: right;
+  margin-right: 50px;
+  margin-top: 50px;
+}
+.answers_silabus h2{
+  font-family: Assistant;
+font-style: normal;
+font-weight: 800;
+font-size: 48px;
+line-height: 63px;
+display: flex;
+align-items: center;
+letter-spacing: 0.02em;
+float: right;
+text-align: right;
+color: #00E6C3;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}

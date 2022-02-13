@@ -1,0 +1,494 @@
+
+/* header New */
+
+/* all imgs */
+.page1 {
+  background-size: cover;
+	position: relative;
+  background-size: 100%;
+  background: url(../images/page1.jpg) no-repeat ;
+}
+
+.page2{
+  	position: relative;
+  background-size: 100%;
+  background: url(../images/page2.jpg) no-repeat ;
+background-size: cover;
+
+}
+
+.page3img{
+  position: relative;
+background-size: 100%;
+background: url(../images/page3.jpg) no-repeat ;
+background-size: cover;
+height: 900px;
+
+}
+
+.page4{
+  	position: relative;
+  background-size: 100%;
+  background: url(../images/page4.jpg) no-repeat ;
+background-size: cover;
+height: 900px;
+top: 10px;
+top: 300px;
+}
+
+.hack {
+  margin-top: 80px;
+}
+.page5{
+  	position: relative;
+  background-size: 100%;
+  background: url(../images/page5.jpg) no-repeat ;
+background-size: cover;
+height: 900px;
+top: 550px;
+
+}
+
+
+.page6{
+  	position: relative;
+  background-size: 100%;
+  background: url(../images/page6.jpg) no-repeat ;
+background-size: cover;
+height: 900px;
+top: 500px;
+}
+
+
+
+
+
+/* all courses */
+/* 1 */
+
+ .page3 ul {
+  direction: rtl;
+  margin-top: 30px;
+  opacity: 1;
+
+}
+.page3 li {
+ direction: rtl;
+ margin-top: 20px;
+
+}
+
+
+.page3 h3{
+  position: absolute;
+  top: 150px;
+  left:200px;
+  z-index: 2;
+}
+.page3 img {
+  height: 600px;
+}
+
+
+.cource__info{
+  position: relative;
+  text-align: right;
+  top: 130px;
+  width: 500px;
+  height: 324px;
+  float: right;
+  z-index: 2;
+  border-radius: 10px;
+  background: rgba(196, 196, 196, .7);
+  font-size: 1.2em;
+
+}
+
+.cource__info img {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 50px;
+}
+
+.cource__info button {
+  position: absolute;
+  left: 30px;
+  top:250px;
+}
+
+
+.pageimg {
+  width: 1440px;
+height: 915px;
+position: absolute;
+opacity: 0.5;
+}
+
+.head a h1 {
+  position: absolute;
+  top: 50px;
+  left: 450px;
+  z-index: 2;
+  color: #002e5b;
+}
+
+.programming_logo h1:hover {
+  color: #007bff;
+}
+
+.hacker__logo h1:hover{
+color: #dc3545;
+}
+
+.train__logo h1:hover{
+color: #28a745;
+}
+
+.time__logo h1:hover {
+color: #fd7e14;
+}
+
+/* h2 слайдера */
+
+.head2 a h2 {
+  z-index: 2;
+  color: #002e5b;
+}
+
+.programming_logo2 h2:hover {
+  color: #007bff;
+}
+
+
+.hacker__logo2 h2:hover{
+color: #dc3545;
+}
+
+.train__logo2 h2:hover{
+color: #28a745;
+}
+
+.time__logo2 h2:hover {
+color: #fd7e14;
+}
+
+.head2 a h2::after {
+  	background-color: #ff656a;
+    transform: scale(0);
+    transition: all .3s;
+    height: 3px;
+    width: 100%;
+    content: '';
+    display: block;
+}
+
+.head2 a h2:hover::after {
+  transform: scale(1);
+  position: relative;
+  left: 50px;
+}
+
+.head2 a h2:hover::after
+
+
+/* загаловок h1 курсов*/
+
+
+.head a h1::after {
+  	background-color: #ff656a;
+    transform: scale(0);
+    transition: all .3s;
+    height: 3px;
+    width: 100%;
+    content: '';
+    display: block;
+}
+
+.head a h1:hover::after {
+  transform: scale(1);
+  position: relative;
+  left: 50px;
+}
+
+.head a h1::after {
+  	background-color: #ff656a;
+    transform: scale(0);
+    transition: all .3s;
+    height: 3px;
+    width: 100%;
+    content: '';
+    display: block;
+}
+
+.head a h1:hover::after {
+  transform: scale(1.2);
+  position: absolute;
+  left:-1px;
+}
+/*  */
+
+
+
+
+.cource__info2 {
+    border-radius: 10px;
+    background: rgba(196, 196, 196, .7);
+    z-index: 2;
+    font-size: 1.2em;
+    height: 324px;
+    width: 500px;
+    position: relative;
+    float: left;
+    top: 130px;
+}
+
+.cource__info2 h3 {
+  width: 400px;
+  font-size: 1.2em;
+  left: 35px;
+  top: 10px;
+}
+
+.cource__info2  ul {
+  margin-top: 50px;
+}
+.cource__info2  li {
+  text-align: center;
+  list-style: none;
+  margin-left: 50px;
+}
+
+
+.cource__video {
+  border-radius: 10px;
+  background: rgba(196, 196, 196, .7);
+  z-index: 2;
+  position: absolute;
+  width: 90%;
+  height: 250px;
+  top: 490px;
+  left: 70px;
+
+}
+
+.cource__video h2{
+text-align: left;
+margin-left: 90px;
+}
+.prog h2 {
+  margin-left: 60px;
+}
+
+.cource__video iframe {
+  margin-left: 50px;
+}
+
+.info__video {
+  float:right;
+  text-align: right;
+  margin-right: 20px;
+  margin-top: -30px;
+}
+
+.info__video h2 {
+  margin-right: 100px;
+}
+
+
+.head__time a h1 {
+  position: absolute;
+  left: 350px;
+}
+
+
+/*mobile*/
+
+@media (max-width: 1200px) {
+
+    .head a h1{
+      left: 350px;
+    }
+    .cource__info{
+      position: absolute;
+      right: -30px;
+    }
+    .cource__info2{
+      position: absolute;
+      left: -30px;
+    }
+
+    .cource__video iframe {
+      width: 250px;
+    }
+    .cource__video__h2  {
+      font-size: 1.5em;
+    }
+    .page5 {
+      margin-top: 350px;
+    }
+
+}
+
+@media only screen and (max-width : 992px){
+  .head a h1{
+    left: 250px;
+  }
+  .cource__info{
+
+    width: 70%;
+  }
+  .cource__info2{
+
+
+    width: 70%;
+  }
+  .cource__info2 h3{
+    width: 300px;
+    text-align: center;
+  }
+  .cource__info2 ul {
+    margin-top: 70px;
+  }
+
+      .cource__video {
+        height: 300px;
+      }
+      .cource__video iframe {
+        width: 200px;
+        height: 250px;
+      }
+      .cource__video__h2  {
+        font-size: 1.5em;
+      }
+
+      .info__video h2 {
+        margin-right: 20px;
+      }
+      .info__video {
+        font-size: 0.9em;
+        width: 350px;
+      }
+
+      .prog h2 {
+        margin-left: 40px;
+      }
+}
+
+@media only screen and (max-width : 768px){
+
+  .page3img {
+    height: 1400px;
+  }
+  .cource__info {
+    left: 15%;
+  }
+
+  .cource__info {
+    height: 390px;
+  }
+  .cource__info2 {
+    margin-top: 40px;
+    top: 500px;
+    left: 15%;
+  }
+
+  .cource__info button {
+    left: 35%;
+    top: 320px;
+  }
+
+  .cource__video{
+    top: 880px;
+  }
+
+  .cource__video{
+    height: 500px;
+  }
+  .info__video{
+    width: 90%;
+  }
+  .cource__video iframe{
+    position: absolute;
+    top: 60%;
+    width: 80%;
+    height: 35%
+  }
+  .cource__video__h2{
+    position: absolute;
+    margin-top: 250px;
+    left: 90px;
+  }
+
+  .info__video h2{
+    margin-top: 30px;
+    margin-left: 130px;
+  }
+
+  .cource__video{
+    position: relative;
+    left: 5%;
+  }
+
+  .head a h1{
+    left: 30%;
+  }
+
+  .page4 {
+    height: 1400px;
+  }
+
+  .page5 {
+    height: 1450px;
+  }
+
+  .page6 {
+    height: 1450px;
+  }
+}
+
+@media only screen and (max-width : 480px){
+
+        .cource__info button {
+          left: 30%;
+          top: 320px;
+        }
+        .page3 h3{
+            left: 5%;
+        }
+
+      .cource__video{
+        height: 190%;
+      }
+
+      .cource__video__h2{
+        left: 20px;
+        top: 90px;
+
+      }
+
+      .cource__video iframe{
+      right:  30px;
+      }
+
+      .info__video h2 {
+        text-align: right;
+        margin-right: 100px;
+      }
+      .page3img{
+        height: 1500px;
+      }
+
+      .page4 {
+        height: 1600px;
+      }
+
+      .page5 {
+        height: 1650px;
+        margin-top: 700px;
+      }
+
+      .page6 {
+        height: 1650px;
+      }
+    }
